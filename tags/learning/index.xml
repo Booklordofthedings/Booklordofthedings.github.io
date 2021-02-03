@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on The Lybry</title>
-    <link>/blogs/</link>
-    <description>Recent content in Blog on The Lybry</description>
+    <title>learning on The Lybry</title>
+    <link>/tags/learning/</link>
+    <description>Recent content in learning on The Lybry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Feb 2021 18:04:22 +0100</lastBuildDate><atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Feb 2021 18:04:22 +0100</lastBuildDate><atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Drawabox</title>
       <link>/blogs/drawabox/</link>
@@ -17,15 +17,6 @@ a drawing course that is intended to show people
 an organized way to learn how to draw.
 https://drawabox.com/
 And since I never really learned to draw I decided to start the course for myself, with the goal of doing 2 pages of it a day and hopefully being a better artist at the end of this.</description>
-    </item>
-    
-    <item>
-      <title>Hello Internet</title>
-      <link>/blogs/my-website/</link>
-      <pubDate>Mon, 01 Feb 2021 17:47:51 +0100</pubDate>
-      
-      <guid>/blogs/my-website/</guid>
-      <description>This is literally just here as a hello world post If you want actuall content to read maybe look at the project page where I wrote down my thoughts on this website.</description>
     </item>
     
   </channel>
