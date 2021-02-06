@@ -5,7 +5,19 @@
     <link>/blogs/</link>
     <description>Recent content in Blog on The Lybry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Feb 2021 18:04:22 +0100</lastBuildDate><atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 23:03:03 +0100</lastBuildDate><atom:link href="/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing</title>
+      <link>/blogs/writing/</link>
+      <pubDate>Sat, 06 Feb 2021 23:03:03 +0100</pubDate>
+      
+      <guid>/blogs/writing/</guid>
+      <description>My main knowledge of the english language comes from the internet and not from school.
+This is probably a fairly common for people that have english as their secondary language nowadays, however for me there is the additional problem of actually learning almost nothing during english class.
+My teacher was horrible at teaching and basically the entire class agreed to it, so my writing suffered.
+After basically being adicted to watching yt and at some point switching to watching it mainly in english, my level of english started to improve, with a big focus there being spoken english.</description>
+    </item>
+    
     <item>
       <title>Drawabox</title>
       <link>/blogs/drawabox/</link>

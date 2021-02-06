@@ -5,7 +5,7 @@
     <link>/</link>
     <description>Recent content in Home on The Lybry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 03 Feb 2021 18:04:22 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 23:14:59 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why the name ?</title>
       <link>/about/name/</link>
@@ -38,6 +38,28 @@ The Lybry: The website you are on right now, a Hub for all of my shenanigans. Li
 Twitter: My probably most commonly used social media rn. Tweets about everything.
 Youtube: I usually do streams here or more analytical stuff.
 Github: The place where I store all of my projects and also this website is hosted.</description>
+    </item>
+    
+    <item>
+      <title>Floppy Control</title>
+      <link>/projects/floppy_control/</link>
+      <pubDate>Sat, 06 Feb 2021 23:14:59 +0100</pubDate>
+      
+      <guid>/projects/floppy_control/</guid>
+      <description>I actually finished a game at some point My original goal since elementary school always was, to become a game programmer, and while currently the focus changed quite a bit to general programming with gamedev as a sidehobby I did learn alot of game programming and in the summer of 2020 I actually finished my first game project for a GameJam.
+(A gamejam is a time limited game making &amp;ldquo;competition&amp;rdquo; where the participants make a game based on a certain theme)</description>
+    </item>
+    
+    <item>
+      <title>Writing</title>
+      <link>/blogs/writing/</link>
+      <pubDate>Sat, 06 Feb 2021 23:03:03 +0100</pubDate>
+      
+      <guid>/blogs/writing/</guid>
+      <description>My main knowledge of the english language comes from the internet and not from school.
+This is probably a fairly common for people that have english as their secondary language nowadays, however for me there is the additional problem of actually learning almost nothing during english class.
+My teacher was horrible at teaching and basically the entire class agreed to it, so my writing suffered.
+After basically being adicted to watching yt and at some point switching to watching it mainly in english, my level of english started to improve, with a big focus there being spoken english.</description>
     </item>
     
     <item>

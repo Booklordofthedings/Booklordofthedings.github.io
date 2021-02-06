@@ -5,7 +5,17 @@
     <link>/projects/</link>
     <description>Recent content in Projects on The Lybry</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 01 Feb 2021 17:47:51 +0100</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Feb 2021 23:14:59 +0100</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Floppy Control</title>
+      <link>/projects/floppy_control/</link>
+      <pubDate>Sat, 06 Feb 2021 23:14:59 +0100</pubDate>
+      
+      <guid>/projects/floppy_control/</guid>
+      <description>I actually finished a game at some point My original goal since elementary school always was, to become a game programmer, and while currently the focus changed quite a bit to general programming with gamedev as a sidehobby I did learn alot of game programming and in the summer of 2020 I actually finished my first game project for a GameJam.
+(A gamejam is a time limited game making &amp;ldquo;competition&amp;rdquo; where the participants make a game based on a certain theme)</description>
+    </item>
+    
     <item>
       <title>This website</title>
       <link>/projects/thiswebsite/</link>
