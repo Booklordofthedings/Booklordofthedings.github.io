@@ -41,6 +41,17 @@ Github: The place where I store all of my projects and also this website is host
     </item>
     
     <item>
+      <title>Gallery</title>
+      <link>/gallery/gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/gallery/gallery/</guid>
+      <description>Hello, this is my personal art gallery, everything is ordered in descending order of time made and I will add some text and info to each image. I havent found a better way to do this yet, without having to redo stuff so this should work fine. Also you can use the images on here noncomercially if you link me somewhere visible.
+Billie the goat Date: 10th, 02.2021
+This is the protagonist of the game billies bust up and I got an earworm from that so I just drew him</description>
+    </item>
+    
+    <item>
       <title>Floppy Control</title>
       <link>/projects/floppy_control/</link>
       <pubDate>Sat, 06 Feb 2021 23:14:59 +0100</pubDate>
@@ -121,15 +132,6 @@ Im a 18 year old student living in germany
 People usually refer to me as &amp;ldquo;Booklordofthedings&amp;rdquo; or &amp;ldquo;Book&amp;rdquo; (he/him)
 I am very interested in alot of computer science topics and &amp;ldquo;know&amp;rdquo; how to program in C#, node js and in Beeflang
 There are alot of games and franchises I like, although I dont usually interact with the fandom. Most of them tend to be indie games, although I also like stuff like Plants vs Zombies, Paladins or Pokemon Since I call myself &amp;ldquo;Book&amp;quot;lordofthedings it would be weird if I wouldnt read.</description>
-    </item>
-    
-    <item>
-      <title>Still under construction</title>
-      <link>/gallery/underconstruction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/gallery/underconstruction/</guid>
-      <description>bruh whyd you even click this ?</description>
     </item>
     
     <item>
