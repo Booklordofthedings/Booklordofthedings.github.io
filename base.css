@@ -30,8 +30,9 @@ a:hover {
 
 .removepre {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    
+    font-size: 0.9rem;
+    max-width: 60rem;
+    word-wrap: break-word;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
