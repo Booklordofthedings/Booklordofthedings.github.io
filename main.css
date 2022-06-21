@@ -1,0 +1,72 @@
+/*Imports and fonts*/
+@font-face {
+	font-family:main;
+	src: url("res/Quicksand_Book.otf") format("opentype");
+}
+@font-face {
+	font-family:text;
+	src: url("res/Roboto-Light.ttf") format("truetype");
+}
+
+
+body {
+	
+	margin:clamp(0px,100vw - 600px,1vw);
+	
+	font-family:text;
+	font-size:16px;
+	
+	/*Configuring the background image (would have been a book, but that looks bad)*/
+    background-color: #018281;
+    background-image:url(res/bg.png);
+    background-size: auto;
+}
+a {
+	text-decoration:none;
+	color:#1fc9c7;
+}
+a:hover {
+	color:#999999;
+}
+
+
+/*The box is used as a max size setting (taken from https://xeiaso.net/)*/
+.box {
+    max-width: 70rem;
+    margin: 0 auto;
+	
+	box-shadow: 1rem 1rem 1rem  rgba(0, 0, 0, 0.652);
+    background-color: #292929bf;
+    color:#e1e1e1;
+	/*Used to order stuff below*/
+	text-align:center;
+}
+.title {
+	font-family: main;
+	font-size: clamp(4vw, 1vw + 0.1 * ( 1920px - 100vw), 7vw);
+	margin-top:calc(clamp(7vw, 7vw + 0.1 * (1920px - 100vw), 80vw) / 2 - clamp(4vw, 1vw + 0.1 * ( 1920px - 100vw), 7vw) / 2 );
+}
+
+@media screen and (max-width: 719px) {
+	.title {
+		margin-top:0px;
+	}
+}
+
+.nav {
+	color:white;
+	font-family: main;
+}
+
+.sideimg {
+	width:64px;
+}
+
+.proj {
+	padding:0px 5px 5px 5px;
+	margin:5px 5px 5px 5px;
+	border:1px solid white;
+}
+
+
+

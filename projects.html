@@ -1,75 +1,105 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Github | Booklordofthedings</title>
-
-        <meta name="author" content="Booklordofthedings">
-        <meta name="description" content="Just a list of Projects">
-        <link rel="stylesheet" type="text/css" href="base.css" media="screen" />
-        <link rel="icon" href="head.ico" />
-
-
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/styles/default.min.css">
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js"></script>
-
-  <link href="prism.css" rel="stylesheet" />
-  
+        <title>main - Booklordofthedings</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Includes n Stuff-->
+		<link rel="icon" href="book.ico"> <!--not putting the i- thingies images here-->
+        <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="simple-grid.css">
+		
+		
+		<meta="description" content="The homepage of the booklordofthedings website, where I show of my projects">
+		<meta="keywords" content="booklordofthedings, programming, guides, projects"> <!--Might not be used anymore, but I still put it here-->
     </head>
+	
     <body>
-        <div class="content" >
-            <div style="text-align: center;">
-                <img src="picture.png" alt="The head of my oc">
-                <u><h1><a style="text-decoration: none; color: #F06543;" href="https://Booklordofthe.dev">My Projects</a></h1> </u>
-                <a href="https://twitter.com/Booklordofthed1">Twitter</a> - <a href="https://github.com/Booklordofthedings">Github</a> -
-                 <a href="https://booklordofthedings.itch.io/">Itch.Io</a> - <a href="https://jvonhagen.de/">Portfolio</a> - <a href="socials.html">Socials</a> - <a href="awesome_pppl.html">Awesome people</a>  - <a href="impressum.html">Impressum</a><br> <br>
-                <i>This great picture was made by <a href="https://impareon.art/">Impareon</a></i>
-            </div>
-                
-            <div class="bg">
-                <a href="https://jvonhagen.de"><h2>My Portfolio website</h2></a>
-                A Website to show of my skills and workexperience <br>
-                <div style="padding-left: 2rem;"> | <a href="https://github.com/Booklordofthedings/jannis_portfolio">Github</a></div>
-            </div>
-            <div class="bg">
-                <a href="https://Booklordofthedings.de/bfn"><h2>Plants vs Zombies Battle for Neighborville stats website</h2></a>
-                Uses the Battle for Neighborville api to display player stats for every user<br>
-                <div style="padding-left: 2rem;"> | <a href="https://Booklordofthedings.de/bfn">Link</a></div>
-            </div>
-            <div class="bg">
-                <a href="https://github.com/Booklordofthedings/BeefBrand"><h2>Beef Brand</h2></a>
-                An Asset hardcoder, that enables you to ship assets with your executeable. Its made for use as a command line tool and can be used with different word sizes.<br>
-                <div style="padding-left: 2rem;"> | <a href="https://github.com/Booklordofthedings/BeefBrand">Link</a></div>
-            </div>
-            <div class="bg">
-                <a href="https://github.com/Booklordofthedings/EasyArguments"><h2>Easy Arguments</h2></a>
-                A simple argument parser that turns program arguments into key value pairs and makes working with arguments in beef programs easier.<br>
-                <div style="padding-left: 2rem;"> | <a href="https://github.com/Booklordofthedings/EasyArguments">Link</a></div>
-            </div>
-             <div class="bg">
-                <a href="https://Booklordofthe.dev"><h2>This website</h2></a>
-                This website, made with static CSS and HTML <br>
-                <div style="padding-left: 2rem;"> | <a href="https://github.com/Booklordofthedings/Booklordofthedings.github.io">Github</a></div>
-            </div>
-            <div class="bg">
-                <a href="https://github.com/Booklordofthedings/Gruv-Beef-Theme"><h2>Gruv-Beef-Theme</h2></a>
-                A visual theme for the Beeflang IDE that imitates the gruvbox color scheme that is
-                available for lots of other ide's. It has a very old school look and is easy on the eyes <br>
-                <div style="padding-left: 2rem;"> | <a href="https://github.com/Booklordofthedings/Gruv-Beef-Theme">Github</a></div>
-            </div>
-     
-            <div class="bg">
-                <a href="https://booklordofthedings.itch.io/floppy-control"><h2>Floppy Control</h2></a>
-                A short puzzle game made in Unity engine in 48 hours. This was my project for my first gamejam.
-                The 2020 GameMakersToolkit gamejam with the theme being: "Out of control". Thats why you dont control
-                the robot directly, but rather influence him with floppy disks. It only has 10 levels with the last level never being beaten before <br>
-                <div style="padding-left: 2rem;"> | <a href="https://booklordofthedings.itch.io/floppy-control">Download</a></div>
-            </div>
-    
-            
-                
+	
+        <div class="box" > 
+			<!--Header-->
+			<div class="row" >
+				<div class="col-1">
+					<img alt="A small image of my original character" src="res/tiny_book2.png" style="width:clamp(7vw, 7vw + 0.1 * (1920px - 100vw), 80vw);">
+				</div>
+				<div class="col-11">
+					<h1 class="title">Booklordofthedings</h1>
+				</div>
+				</div>
+				<!--Navlist -->
+				<hr class="row col-12">
+				<div class="row">
+						<div class="col-3"> <a href="index.html" class="nav">Home</a> </div>
+						<div class="col-3"> <a href="projects.html" class="nav"> Projects </a> </div>
+						<div class="col-3"> <a href="https://Booklordofthe.dev/guides" class="nav"> Guides </a> </div>
+						<div class="col-3"> <a href="about.html" class="nav"> About </a></div>
+				</div>
+				<hr class="row col-12">
+				<br> <!--Has to be here, otherwise the hr doesnt display-->
         </div>
-        <script src="prism.js"></script>
+		<!-- Website content starts here: -->
+		
+		
+		<div class="box" style="margin-top:3rem;">
+			<div class="container" style="text-align:left;">
+			
+				<br class="row col-12">
+				<div class="proj">
+					<div class="row col-12" >
+					<img src="res/projecttest.png" class="sideimg" alt="a image of the beef icon" style="float:left">
+					<h3>Beef Brand</h3>
+					Using a file template Generator to generate static file includes for the Beef language.
+						(Taking a file and putting it in the .exe)<br>
+						<a href="https://github.com/Booklordofthedings/BeefBrand">-> Link</a>
+					</div>
+				</div>
+				<br>
+				<div class="proj">
+					<div class="row col-12" >
+					<img src="res/icon_spill.png" class="sideimg" alt="a file icon that contains water and is overflowing" style="float:left">
+					<h3>Spill</h3>
+					A simple utility to 'spill' files from a directory into a directory below. <br>
+					<a href="https://github.com/Booklordofthedings/Spill">-> Link</a>
+					</div>
+				</div>
+				<br>
+				<div class="proj">
+					<div class="row col-12" >
+					<img src="res/projecttest.png" class="sideimg" alt="a image of the beef icon" style="float:left">
+					<h3>G.O.N -> Generic object notation</h3>
+					Originally an exercise for myself to create a useful notation, thats easier then JSON to parse and to write.
+					The notation itself is language indipendent, however the parser is currently only implemented in Beeflang <br>
+					<a href="https://github.com/Booklordofthedings/gon">-> Link</a>
+					</div>
+				</div>
+				<br>
+				<div class="proj">
+					<div class="row col-12" >
+					<img src="res/slime.png" class="sideimg" alt="a image of a slime" style="float:left">
+					<h3>Slime slammer</h3>
+					A simple arcade game made in 48 hours for a gamejam<br>
+					<a href="https://booklordofthedings.itch.io/slimeslammer">-> Link</a>
+					<a href="https://github.com/Booklordofthedings/gmtk2021game">-> Github</a>
+					</div>
+				</div>
+				<br>
+				<div class="proj">
+					<div class="row col-12" >
+					<img src="res/floppy.png" class="sideimg" alt="a pixelart floppy disk" style="float:left">
+					<h3>Floppy Control</h3>
+					A simple puzzle game made in 48 hours for a gamejam<br>
+					<a href="https://booklordofthedings.itch.io/floppy-control">-> Link</a>
+					</div>
+				</div>
+				
+			
+			
+				
+				
+		</div>
+		
+		
+		
+		
     </body>
 </html>

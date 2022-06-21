@@ -1,42 +1,96 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Github | Booklordofthedings</title>
-
-        <meta name="author" content="Booklordofthedings">
-        <meta name="description" content="Just a list of Projects">
-        <link rel="stylesheet" type="text/css" href="base.css" media="screen" />
-        <link rel="icon" href="head.ico" />
-
-
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/styles/default.min.css">
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.0.0/build/highlight.min.js"></script>
-
-  <link href="prism.css" rel="stylesheet" />
-  
+        <title>main - Booklordofthedings</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Includes n Stuff-->
+		<link rel="icon" href="book.ico"> <!--not putting the i- thingies images here-->
+        <link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="simple-grid.css">
+		
+		
+		<meta="description" content="The homepage of the booklordofthedings website, where I show of my projects">
+		<meta="keywords" content="booklordofthedings, programming, guides, projects"> <!--Might not be used anymore, but I still put it here-->
     </head>
+	
     <body>
-        <div class="content" >
-            <div style="text-align: center;">
-                <img src="picture.png" alt="The head of my oc">
-                <u><h1><a style="text-decoration: none; color: #F06543;" href="https://Booklordofthe.dev">Booklordofthedings</a></h1> </u>
-                <a href="https://twitter.com/Booklordofthed1">Twitter</a> - <a href="https://github.com/Booklordofthedings">Github</a> -
-                 <a href="https://booklordofthedings.itch.io/">Itch.Io</a> - <a href="https://jvonhagen.de/">Portfolio</a> - <a href="socials.html">Socials</a> - <a href="awesome_pppl.html">Awesome people</a>  - <a href="impressum.html">Impressum</a><br> <br>
-                <i>This great picture was made by <a href="https://impareon.art/">Impareon</a></i>
-            </div>
-                
-            <div class="bg" style="text-align: center;">
-                <a href="projects.html" ><h1 >My Projects</h1></a>
-            </div>
-
-            <div class="bg" style="text-align: center;">
-                <a href="beef/beef.html" ><h1 >Beef Tutorials</h1></a>
-            </div>
-           
-                
+	
+        <div class="box" > 
+			<!--Header-->
+			<div class="row" >
+				<div class="col-1">
+					<img alt="A small image of my original character" src="res/tiny_book2.png" style="width:clamp(7vw, 7vw + 0.1 * (1920px - 100vw), 80vw);">
+				</div>
+				<div class="col-11">
+					<h1 class="title">Booklordofthedings</h1>
+				</div>
+				</div>
+				<!--Navlist -->
+				<hr class="row col-12">
+				<div class="row">
+						<div class="col-3"> <a href="index.html" class="nav">Home</a> </div>
+						<div class="col-3"> <a href="projects.html" class="nav"> Projects </a> </div>
+						<div class="col-3"> <a href="https://Booklordofthe.dev/guides" class="nav"> Guides </a> </div>
+						<div class="col-3"> <a href="about.html" class="nav"> About </a></div>
+				</div>
+				<hr class="row col-12">
+				<br> <!--Has to be here, otherwise the hr doesnt display-->
         </div>
-        <script src="prism.js"></script>
+		<!-- Website content starts here: -->
+		
+		
+		<div class="box" style="margin-top:3rem;">
+			<div class="container"
+			
+				<hr class="row col-12">
+			
+				<div class="row">
+					<div class="col-2"> <img src="res/projecttest.png" class="sideimg" alt="a image of the beef icon"></div>
+					<div class="col-10">
+						<a href="beef/index.html">
+						<h3>My Beef tutorials</h3>
+						I have made several tutorials regarding the beef programming language
+						</a>
+					</div>
+				</div>
+				
+				<div class="row">
+				<div class="col-2"><img src="res/GitHub-Mark-64px.png" class="sideimg" alt="the github logo"></div>
+				<div class="col-10">
+						<a href="https://github.com/Booklordofthedings">
+						<h3>My Github Account</h3>
+						This is where I have most of my public code stored
+						</a>
+				</div>
+				</div>
+				
+				
+				<div class="row">
+				<div class="col-2"><img src="res/itchio-textless-black.svg" class="sideimg" alt="the github logo"></div>
+				<div class="col-10">
+						<a href="https://booklordofthedings.itch.io/">
+						<h3>Itch io</h3>
+						Games and finished shippeable products go up here
+						</a>
+				</div>
+				</div>
+				
+				<div class="row">
+				<div class="col-2"><img src="res/2021 Twitter logo - black.png" class="sideimg" alt="the github logo"></div>
+				<div class="col-10">
+						<a href="https://twitter.com/Booklordofthed1">
+						<h3>Twitter</h3>
+						I sometimes post cringe on the birdpage
+						</a>
+				</div>
+				</div>
+				
+				
+		</div>
+		
+		
+		
+		
     </body>
 </html>
