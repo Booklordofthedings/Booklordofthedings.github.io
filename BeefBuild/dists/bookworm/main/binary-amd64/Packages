@@ -1,0 +1,15 @@
+Package: beefbuild
+Priority: optional
+Section: Beef
+Maintainer: Booklordofthedings <Booklordofthedings@tutanota.com>
+Architecture: amd64
+Version: 0.43.4
+Filename: pool/main/b/beefbuild/BeefBuild_0.43.4n2023.12.14_amd64.deb
+Size: 51918218
+MD5sum: 910b9503d73e4e9387ee4a2b2fd33f06
+SHA1: a85f1be52cd0e81bcb52146c7bad7afda02123e9
+SHA256: dec4076a775db2630b5ac791e0d956b2b364dcce8cdb6fcefb86837b7464cb19
+SHA512: 8a12444de118fab11caa6b2e2b42d23029df79b66cbc536b96e46cf64e0db75966d81202471a4b7c126c8afbcf828b6ee1aef3204439cb4a9ac1c7b19f3459c9
+Description: A compiler for beef. Use BeefBuild -help to get more information
+Homepage: https://www.beeflang.org/
+

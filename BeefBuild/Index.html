@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    </head>
+    <body>
+        <p>
+            Hi im booklordofthedings and this page is a small guide for installing beefbuild on your linux distro with apt. <br>
+            <a href="pool/main/b/beefbuild/BeefBuild_0.43.4n2023.12.14_amd64.deb">The raw .deb file can be gotten here</a> <br>
+            You should do it the "proper" way and just add this file to an apt repo, this will allow me to update the repo and you can get the newest versions if required. <br>
+            This is also still a temporary solution and eventually the BeefBuild command should be in apt or on its own server, potentially with a autobuild script for the newest nightlies.<br>
+            If you are interested in helping you can contact Booklordofthedings on github or discord. <br>
+            You can also help create something like a script that does the below process automatically if you have the time
+
+            <h2>How to add this repo to your apt</h2>
+            <code>wget https://booklordofthe.dev/BeefBuild/public.key</code> <br>
+            <code>echo "deb https://www.Booklordofthe.dev/BeefBuild/ bookworm main" | sudo tee -a /etc/apt/sources.list.d/bookdev.list</code>
+            <code>sudo apt-key add public.key</code> <br>
+            <code>sudo apt update</code> <br>
+            <code>sudo apt install beefbuild</code> <br>
+            <h4>I am aware that this is deprecated, the better solution using the  sources.list file will be implemented some time in the future</h4>
+        </p>
+    <body>
+</html>
